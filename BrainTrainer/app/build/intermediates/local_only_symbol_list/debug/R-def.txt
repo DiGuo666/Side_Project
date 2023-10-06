@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button0
+id button1
+id button2
+id button3
+id countdowntextView
+id gamelayout
+id gridLayout
+id playagainbutton
+id questtextView
+id resulttextView
+id scoretextView
+id startbutton
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.BrainTrainer
+style Theme.BrainTrainer
+xml backup_rules
+xml data_extraction_rules

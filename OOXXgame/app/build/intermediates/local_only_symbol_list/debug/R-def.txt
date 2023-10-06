@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable black
+drawable board
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable red
+id gridlayout
+id playagainbutton
+id redimageView
+id redimageView2
+id redimageView3
+id redimageView4
+id redimageView5
+id redimageView6
+id redimageView7
+id redimageView8
+id redimageView9
+id textView
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.OOXXgame
+style Theme.OOXXgame
+xml backup_rules
+xml data_extraction_rules
