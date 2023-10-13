@@ -2,16 +2,19 @@ package com.example.weatherapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -89,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         } catch (Exception e){
+            Toast.makeText(this, "數據尚未載入完成", Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         }
     }
@@ -96,7 +100,14 @@ public class MainActivity extends AppCompatActivity {
         town_INFO = "";
         showuptextview.setText(town_INFO);
         JSON_arr(temp);
-        showuptextview.setText(town_INFO);
+        if(!town_INFO.equals("")) {
+            showuptextview.setText(town_INFO);
+        } else {
+            showuptextview.setText("輸入錯誤 請重新輸入");
+        }
+        //hide keyboard
+        InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        mgr.hideSoftInputFromWindow(enteredittext.getWindowToken(),0);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -116,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void run() {
                             if(temp != null){
-
+                                Toast.makeText(MainActivity.this, "數據加載完成", Toast.LENGTH_LONG).show();
                             }
                         }
                     });
