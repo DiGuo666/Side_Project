@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">重力五子棋</string>
+    <string name="btn_notification">請按下圓形按鈕</string>
+    <string name="Separation_Line">===============================================</string>
+
+    <!--    front background-->
+    <string name="One_Player_Game_Description">單人遊戲，與AI遊玩</string>
+    <string name="Two_Player_Game_Description">雙人遊戲，與朋友對戰</string>
+    <string name="Question_Button_Description">關於此遊戲</string>
+    <string name="Setting_Button_Description">遊戲設定</string>
+    <string name="About_Game">關於此遊戲</string>
+    <string name="About_Description">規則與五子棋相同，但是加入了重力。</string>
+    <string name="Okay_Button">知道了!</string>
+    <!--    User Preference Settings-->
+    <string name="Music_Title">是否播放音樂?</string>
+    <string name="Play_Music">播放音樂中</string>
+    <string name="Stop_Music">停止播放音樂</string>
+    <string name="velocity_Title">棋子下降速度</string>
+    <string name="Now_velocity">目前棋子下降速度</string>
+
+    <!--    game mode-->
+    <string name="Choose_One_Player">單人遊戲</string>
+    <string name="Choose_Two_Player">雙人遊戲</string>
+    <string name="title_activity_settings">設定</string>
+
+    <!--    game board-->
+    <string name="Winner_Scooby_Doo">玩家史酷比都獲勝次數: </string>
+    <string name="Winner_Husky">玩家哈士奇獲勝次數: </string>
+    <string name="Game_Over">遊戲結束!!!</string>
+    <string name="Tie">雙方平手! 再玩一次嗎?</string>
+    <string name="Scooby_Doo_Play_Again">玩家史酷比都獲勝! 再玩一次嗎?</string>
+    <string name="Husky_Play_Again">玩家哈士奇獲勝! 再玩一次嗎?</string>
+    <string name="Play_Again">好!</string>
+    <string name="No_Play_Again">不了，謝謝</string>
+</resources>

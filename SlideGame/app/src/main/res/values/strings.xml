@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SlideGame</string>
+    <string name="btn_notification">Please hit one of the round buttons</string>
+    <string name="Separation_Line">===============================================</string>
+
+    <!--    front background-->
+    <string name="One_Player_Game_Description">One player game! Play with AI</string>
+    <string name="Two_Player_Game_Description">Two player game!</string>
+    <string name="Question_Button_Description">About the game</string>
+    <string name="Setting_Button_Description">Game settings</string>
+    <string name="About_Game">About this game</string>
+    <string name="About_Description">The game rule is the same as Gobang, but has gravity.</string>
+    <string name="Okay_Button">Understand!</string>
+    <!--    User Preference Settings-->
+    <string name="Music_Title">Play music?</string>
+    <string name="Play_Music">Playing music</string>
+    <string name="Stop_Music">Music stop</string>
+    <string name="velocity_Title">Set Velocity</string>
+    <string name="Now_velocity">Game velocity set</string>
+
+    <!--    game mode-->
+    <string name="Choose_One_Player">one player</string>
+    <string name="Choose_Two_Player">two players</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!--    game board-->
+    <string name="Winner_Scooby_Doo">Player Scooby-Doo won: </string>
+    <string name="Winner_Husky">Player Husky won: </string>
+    <string name="Game_Over">GameOver!!!</string>
+    <string name="Tie">Tie! Play again?</string>
+    <string name="Scooby_Doo_Play_Again">Player Scooby-Doo Win! Play again?</string>
+    <string name="Husky_Play_Again">Player Husky Win! Play again?</string>
+    <string name="Play_Again">Okay!</string>
+    <string name="No_Play_Again">No, thanks!</string>
+
+
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
